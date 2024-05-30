@@ -31,21 +31,21 @@ public class RoPaSc {
                 System.out.println("It's a tie");
             } else if (usermove.equalsIgnoreCase("Rock")) {
                 if (compmove.equalsIgnoreCase("Paper")) {
-                    System.out.println("You lose");
+                    System.out.println("You Lose🫣");
                 } else if (compmove.equalsIgnoreCase("Scissor")) {
-                    System.out.println("You win");
+                    System.out.println(" 🏆You Win🏆");
                 }
             } else if (usermove.equalsIgnoreCase("Paper")) {
                 if (compmove.equalsIgnoreCase("Rock")) {
-                    System.out.println("You Win");
+                    System.out.println("🏆You Win🏆");
                 } else if (compmove.equalsIgnoreCase("Scissor")) {
-                    System.out.println("You lose");
+                    System.out.println("You Lose🫣");
                 }
             } else if (usermove.equalsIgnoreCase("Scissor")) {
                 if (compmove.equalsIgnoreCase("Rock")) {
-                    System.out.println("You lose");
+                    System.out.println("You Lose🫣");
                 } else if (compmove.equalsIgnoreCase("Paper")) {
-                    System.out.println("You win");
+                    System.out.println("🏆You Win🏆");
                 }
             }
 
